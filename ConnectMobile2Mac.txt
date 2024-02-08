@@ -7,9 +7,14 @@
    Now adb should be in the path. 
 
    to make this change permanent: 
-   > nano ./.bashrc
+   > nano ./.bashrc   //  or try nano .bash_profile  // nano ~/.zshrc
    Paste the above two lines and Ctrl+x > Save - > Restart the system or 
-   > source ~/.bashrc
+   > source ~/.bashrc   // 
 3. Connect android mobile phone using USB and developers mode enabled. 
    > adb devices     // Will list the device in the list 
+                     // Location of platform tools: /Users/macbookpro/Library/Android/sdk/platform-tools 
+   > Check device id  // List should not be empty 
+
+     
+
 
