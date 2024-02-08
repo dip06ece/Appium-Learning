@@ -1,0 +1,15 @@
+1.  Check Java installed in system or not. 
+    > java --version    // Java should be available in your system
+
+2. Check that android studio setup done and is in $PATH 
+   > export ANDROID_HOME="/Users/macbookpro/Library/Android/sdk"
+   > export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$PATH"
+   Now adb should be in the path. 
+
+   to make this change permanent: 
+   > nano ./.bashrc
+   Paste the above two lines and Ctrl+x > Save - > Restart the system or 
+   > source ~/.bashrc
+3. Connect android mobile phone using USB and developers mode enabled. 
+   > adb devices     // Will list the device in the list 
+
