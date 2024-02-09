@@ -14,7 +14,12 @@
    > adb devices     // Will list the device in the list 
                      // Location of platform tools: /Users/macbookpro/Library/Android/sdk/platform-tools 
    > Check device id  // List should not be empty 
-
+4. Install Vysor to browse your mobile. We will need this for checking different informations. 
+   After installing try connect your phone using Vysor. In my case mouse control was not working. So, I tried following 
+   > Turn off wifi
+   > Turn on Mobile Network 
+   > Enable "Install Via USB" in Developer Options. 
+   This solved my problems. 
      
 
 
