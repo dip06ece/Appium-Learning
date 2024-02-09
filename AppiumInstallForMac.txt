@@ -1,0 +1,25 @@
+1. Download and install Node and NPM (Prerequiste)
+   Check the installation with following commands: 
+   > node --version 
+   > npm --version  
+2. Install appium with node.js (sudo mode)
+  > npm install -g appium 
+3. Check whether appium is installed in your system or not 
+  > appium --version 
+4. To run Appium  issue command 
+  > Sudo appium 
+  This will start appium server at default (4723) port. 
+5. To access the browser version of Appium Inspector (Previously Appium Desktop) 
+with a local appium server start the server with command: 
+   > sudo appium --allow-cors
+   From browser you can browse http://localhost:4723/
+6. To install standalone desktop version of Appium Inspector
+  Got to --> https://github.com/appium/appium-inspector/releases
+  Download: Appium-Inspector-mac-XXXX.XX.XX.dmg and install and open it. 
+  If you face any difficulties opening the app. Do ..
+  a. Go to System Preferences > Security & Privacy > General.
+  b. Click on the "open anyway" button.
+  c. Once it's done, try to open appium again.
+
+
+
