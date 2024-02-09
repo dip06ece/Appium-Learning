@@ -29,7 +29,18 @@ with a local appium server start the server with command:
    > nano ~/.bashrc
    > nano ~/.bash_profile
    > nano ~/.zshrc
-   > source ~/.bashrc   // Edited all three files (added line 28) and reloaded configuration to fix $JAVA_HOME issue. 
+   > source ~/.bashrc   // Edited all three files (added line 28) and reloaded configuration to fix $JAVA_HOME issue.
+
+   > npm install -g mjpeg-consumer
+
+   > brew install ffmpeg 
+
+   > mkdir $ANDROID_HOME/bundle-tool
+   > mv ./bundletool/bundletool.jar $ANDROID_HOME/bundle-tool/bundletool.jar
+   > nano ~/.zshrc
+   > export PATH="$ANDROID_HOME/bundle-tool:$PATH"
+   > source ~/.zshrc
+
    
 
 
