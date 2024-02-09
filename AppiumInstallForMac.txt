@@ -20,6 +20,17 @@ with a local appium server start the server with command:
   a. Go to System Preferences > Security & Privacy > General.
   b. Click on the "open anyway" button.
   c. Once it's done, try to open appium again.
+7. Install appium Doctor. 
+   > npm install appium-doctor -g 
+   > appium-doctor --android        //To check our setup for android testing 
+   fix installation issues that are present 
+   In my case - JAVA_HOME did not have proper value. 
+   export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home"
+   > nano ~/.bashrc
+   > nano ~/.bash_profile
+   > nano ~/.zshrc
+   > source ~/.bashrc   // Edited all three files (added line 28) and reloaded configuration to fix $JAVA_HOME issue. 
+   
 
 
 
