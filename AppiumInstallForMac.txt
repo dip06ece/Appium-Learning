@@ -41,6 +41,13 @@ with a local appium server start the server with command:
    > export PATH="$ANDROID_HOME/bundle-tool:$PATH"
    > source ~/.zshrc
 
+   > brew install gstreamer 
+   > brew install gst-plugins-base 
+
+   opencv4nodejs issue was solved after trying lot of different things.
+   
+
+
    
 
 
